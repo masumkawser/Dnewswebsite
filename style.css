@@ -1,0 +1,39 @@
+
+.menu-area{
+    width: auto;
+}
+.menu-area ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.menu-area ul li{
+position:relative;
+text-decoration: none;
+}
+.menu-area ul li ::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: aqua;
+    bottom: -5px;
+    left: 0;
+    transition: .5s all  ease-in-out;
+}
+.menu-area ul li:hover ::after{
+
+    width: 100%;
+}
+.menu-area ul li a{
+    color: black;
+    font-family:lato;
+    font-size: 16px;
+    transition: 0.3s all ease-in;
+    text-decoration: none;
+}
+.menu-area ul li a:hover{
+    color: aqua;
+}
