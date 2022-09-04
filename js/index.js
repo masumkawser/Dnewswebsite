@@ -39,7 +39,9 @@ const eachNewsPortal= eachNews=>{
     <div class="card-body">
       <h5 class="card-title">${eachNewshow.title}</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    //   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    //   Detail more...
+    // </button>
     </div>
   </div>
   </div>`
