@@ -69,8 +69,8 @@ const displayAllNews = (allNews, cId) => {
           </div>
           <div class="card-body col-md-9 col-lg-9 col-12 align-itmes-center">
               <div class="ps-md-5 ps-sm-3 ps-3 pt-3">
-                  <h5 class="card-title fs-4 fs-md-4 fw-bolder">${news.title ? news.title : 'Not Found'}</h5>
-                  <p class="card-text my-3">${news.details.slice(0, 350)}...</p>
+                  <h5 class="card-title fs-4 fs-md-4 fw-bolder bg-info">${news.title ? news.title : 'Not Found'}</h5>
+                  <p class="card-text my-3 bg-primary">${news.details.slice(0, 350)}...</p>
                   <a onclick="newsModal('${news._id}')" type="button" class=" mb-3 text-decoration-none text-danger custom-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More <i class="fa-solid fa-arrow-right"></i></a>
 
                   <div class="row justify-content-between align-items-center mt-4 pb-3">
