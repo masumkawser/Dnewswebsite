@@ -1,4 +1,3 @@
-.
 
 const showAllCategories = async () => {
   const url = `https://openapi.programming-hero.com/api/news/categories`;
